@@ -1,0 +1,24 @@
+name: oko
+channels:
+    - conda-forge
+    - anaconda
+    - pytorch
+    - pyg
+    - defaults
+dependencies:
+    - python=3.8
+    - pytorch::pytorch=1.11.0=py3.8_cuda11.3_cudnn8.2.0_0
+    - pyg::pyg=2.1.0
+    - conda-forge::bayesian-optimization
+    - IPython
+    - tqdm
+    - munch
+    - graph-tool
+    - pip
+    - pandas
+    - optuna
+    - tensorboard
+    - psutil
+    - pip:
+          - datatable
+          - torch-geometric-temporal
